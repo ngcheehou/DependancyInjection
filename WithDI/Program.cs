@@ -82,9 +82,9 @@ namespace WithDI
 
             while (ArthurDayne.HP > 0 && Melisandre.HP > 0)//pretends this is a game play
             {
-                int damage = ArthurDayne.Attack();
-                  damage = ArthurDayne.TagTeamAttack(Jamie);//Optional
-                //Melisandre.Potion = new MagicPotion();//Optional
+                
+                int damage = ArthurDayne.TagTeamAttack(Jamie);//Optional
+                Melisandre.Potion = new MagicPotion();
                 
                 Melisandre.Defend(damage);
 

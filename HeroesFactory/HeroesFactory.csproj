@@ -43,6 +43,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Heroes\Knight.cs" />
+    <Compile Include="Heroes\Magician.cs" />
+    <Compile Include="HeroFactory.cs" />
+    <Compile Include="Interfaces\IHero.cs" />
+    <Compile Include="Interfaces\IPotion.cs" />
+    <Compile Include="Interfaces\IShield.cs" />
+    <Compile Include="Interfaces\IWeapon.cs" />
+    <Compile Include="Inventories\MagicFire.cs" />
+    <Compile Include="Inventories\MagicPotion.cs" />
+    <Compile Include="Inventories\MagicShield.cs" />
+    <Compile Include="Inventories\Shield.cs" />
+    <Compile Include="Inventories\Sword.cs" />
+    <Compile Include="Inventories\SwordOfTheMorning.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
